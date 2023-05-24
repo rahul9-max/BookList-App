@@ -1,0 +1,62 @@
+/* BookList component styles */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  /* pseudo-class selector */
+  li:last-of-type {
+    border-bottom: none;
+  }
+  /* child combinator */
+  li > strong {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  li > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  li button {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #367ff4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  li button:hover {
+    background-color: #e53935;
+  }
+  

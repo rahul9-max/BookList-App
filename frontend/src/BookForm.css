@@ -1,0 +1,88 @@
+/* BookForm component styles
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type='submit'] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #3e8e41;
+  }
+   */
+   /* BookForm component styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  button[type='submit'] {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #3e8e41;
+  }
